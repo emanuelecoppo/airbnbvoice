@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*----------------------------------------BROWSER----------------------------------------*/
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*----------------------------------------IMG----------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    margin-bottom: -4px;
+}
+iframe.desktop {
+    width: 100vw;
+    height: 100vh; /*56.25vw*/
+}
+iframe.mobile {
+    width: 100vw; /*1242*/
+    height: 100vh;
+}
+.arrow-up {
+    position: fixed;
+    right: calc(10px + 3vw);
+    bottom: calc(10px + 0vw);
+    color: #fff;
+    font-size: calc(2em + 3vw);
+    text-shadow: 0 0 5px rgba(0,0,0,.4);
+}
+/* .arrow-down {
+    position: absolute;
+    top: 49.5vw;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: calc(6vw);
+    z-index: 3;
+} */
+#vimeo {
+    margin:10vw 10vw;
+    margin-bottom: 0;
+}
+#vimeo div {
+    padding-top: 56.25%;
+    position: relative;
+    background-color: #000;
+}
+.button {
+    width: 16vw;
+    position: absolute;
+    top: 26vw;
+    left: 50%;
+    transform: translateX(-50%);
+}
